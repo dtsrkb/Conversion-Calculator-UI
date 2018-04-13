@@ -13,6 +13,7 @@
 		9EAD0C63207BDCFA00EA422B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD0C61207BDCFA00EA422B /* LaunchScreen.storyboard */; };
 		9EAD0C6E207BDCFB00EA422B /* Conversion_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD0C6D207BDCFB00EA422B /* Conversion_CalculatorTests.swift */; };
 		9EAD0C79207BDCFB00EA422B /* Conversion_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD0C78207BDCFB00EA422B /* Conversion_CalculatorUITests.swift */; };
+		9EAD0C87207BDF7600EA422B /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD0C86207BDF7600EA422B /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9EAD0C74207BDCFB00EA422B /* Conversion CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversion CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAD0C78207BDCFB00EA422B /* Conversion_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion_CalculatorUITests.swift; sourceTree = "<group>"; };
 		9EAD0C7A207BDCFB00EA422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAD0C86207BDF7600EA422B /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9EAD0C5F207BDCFA00EA422B /* Assets.xcassets */,
 				9EAD0C61207BDCFA00EA422B /* LaunchScreen.storyboard */,
 				9EAD0C64207BDCFA00EA422B /* Info.plist */,
+				9EAD0C86207BDF7600EA422B /* ConverterViewController.swift */,
 			);
 			path = "Conversion Calculator";
 			sourceTree = "<group>";
@@ -185,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Tech Innovator";
 				TargetAttributes = {
 					9EAD0C54207BDCFA00EA422B = {
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EAD0C59207BDCFA00EA422B /* AppDelegate.swift in Sources */,
+				9EAD0C87207BDF7600EA422B /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +329,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -332,6 +337,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -382,6 +388,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -389,6 +396,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
